@@ -191,7 +191,7 @@ def get_texture(
     2, the maximum is 256.
     """
 
-    # Modified use pixels nality to determine the number of directions
+    # Modified use pixels dimensionality to determine the number of directions
     n_directions = 13 if pixels.ndim > 2 else 4
 
     # MODIFIED: We assume that the mask provided has the same shape
